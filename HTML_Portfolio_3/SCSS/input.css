@@ -413,10 +413,6 @@ div[class*=contents] a:last-of-type {
           justify-content: center;
 }
 
-.card_container .block {
-  margin-right: 30px;
-}
-
 .card_container a:hover {
   text-decoration: none;
   text-transform: none;
