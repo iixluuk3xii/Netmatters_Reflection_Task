@@ -20,6 +20,7 @@
         }
     }
 }
+
 //This is the mixin that doesn't seem to be working.
 @each $name, $col, $dark_col in $colours {
     .#{$name}_icon_background {
@@ -27,6 +28,11 @@
     }
     .btn_#{$name} {
         background-color: $dark_col;
+    }
+
+    .block:hover {
+        // background-color: $col;
+        border: 3px solid red;
     }
 }
 // -------------------------------------------
