@@ -30,9 +30,9 @@
         background-color: $dark_col;
     }
 
-    .block:hover {
-        // background-color: $col;
-        border: 3px solid red;
+    .block:hover a .card_#{$name} {
+        background-color: $col;
+        color: $dark_col;
     }
 }
 // -------------------------------------------
