@@ -413,6 +413,10 @@ div[class*=contents] a:last-of-type {
           justify-content: center;
 }
 
+.card_container .block {
+  padding-bottom: 30px;
+}
+
 .card_container a:hover {
   text-decoration: none;
   text-transform: none;
@@ -424,6 +428,7 @@ div[class*=contents] a:last-of-type {
   border-radius: 5px;
   display: block;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .card_container .card h2 {
