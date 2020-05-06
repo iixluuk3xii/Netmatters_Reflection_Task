@@ -144,8 +144,9 @@
   background-color: #7c548f;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_web {
+  background-color: #a281b3;
+  color: #7c548f;
 }
 
 .it_icon_background {
@@ -156,8 +157,9 @@
   background-color: #3a84cf;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_it {
+  background-color: #4fa7ff;
+  color: #3a84cf;
 }
 
 .telecoms_icon_background {
@@ -168,8 +170,9 @@
   background-color: #cf3f2b;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_telecoms {
+  background-color: #f5624e;
+  color: #cf3f2b;
 }
 
 .bespoke_icon_background {
@@ -180,8 +183,9 @@
   background-color: #8995a1;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_bespoke {
+  background-color: #b2c1cf;
+  color: #8995a1;
 }
 
 .digital_icon_background {
@@ -192,8 +196,9 @@
   background-color: #64a65d;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_digital {
+  background-color: #7aed6d;
+  color: #64a65d;
 }
 
 .cybers_icon_background {
@@ -204,7 +209,8 @@
   background-color: #d12e49;
 }
 
-.block:hover {
-  border: 3px solid red;
+.block:hover a .card_cybers {
+  background-color: #fa4160;
+  color: #d12e49;
 }
 /*# sourceMappingURL=mixins.css.map */
