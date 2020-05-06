@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Website Title</title>
+        <link rel="stylesheet" href="SCSS/input.css"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="CSS/font-awesome-4.7.0/css/font-awesome.css">
+
+    </head>
+    <header>
+       <div class="header_container d-block">
+           <div class="row menu_row">
+               <div class="col my-auto logo col-lg-4 col-md-4"> <!-- Logo -->
+                    <img class="logo_image" src="Images/Logo.png">
+               </div>
+               <div class="col d-flex btn-group-lg my-auto non_logo"> <!-- Two Buttons, Search Bar and Menu Button -->
+                    <button type="button" class="btn d-none d-lg-block d-xl-block btn-primary"><i class="fa fa-cogs"></i> Support</button>
+                    <button type="button" class="btn d-none d-lg-block d-xl-block btn-secondary"><i class="fa fa-phone-square"></i> Contact</button>
+               </div>
+               <div class="col my-auto"> <!-- my-auto vertical aligns but automatic y margins -->
+                    <nav class=" navbar navbar-light bg-light ">
+                        <form class="d-inline form-inline">
+                          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success " type="submit">Search</button>
+                        </form>
+                    </nav>
+               </div>
+               <div class="col col-lg-1 non_logo menu-icon">
+                    <img src="Images/Menu_Icon.png" >
+               </div>
+           </div>
+       </div>
+    </header>
+    <div class="nav_width">
+        <div class="navigation-row hidden-xs hidden-sm"> <!-- Navigation Bar 6 tabs -->
+                <div class="web_hover">
+                    <a href="#" class="nav web"><i class="fa fa-code"></i><small><br>Web</small><br>Design</a> 
+                        <div class="web_contents"> 
+                            <a href="#">Stylish Websites</a>
+                            <a href="#">Ecommerce Stores</a>
+                            <a href="#">Branding</a>
+                            <a href="#">Mobile Apps</a>
+                            <a href="#">Web Hosting</a>
+                            <a href="#">Pay Monthly Sites</a>
+                        </div>
+                    </div>
+                <div class="it_hover">
+                    <a href="#" class="nav it"><i class="fa fa-desktop"></i><small><br>IT</small><br>Support</a>
+                        <div class="it_contents"> 
+                            <a href="#">Managed IT Support</a>
+                            <a href="#">business it support</a>
+                            <a href="#">office 365</a>
+                            <a href="#">consultancy</a>
+                            <a href="#">cloud provider</a>
+                            <a href="#">data backup</a>
+                        </div> 
+                </div>
+                <div class="telecoms_hover">
+                    <a href="#" class="nav telecoms"><i class="fa fa-phone"></i><small><br>Telecoms</small><br>Services</a>
+                    <div class="telecoms_contents">
+                        <a href="#">gigabit voucher</a>
+                        <a href="#">hosted voip</a>
+                        <a href="#">business voip</a>
+                        <a href="#">business broadband</a>
+                        <a href="#">leased line</a>
+                        <a href="#">3cx systems</a>
+                    </div>
+                </div>
+                <div class="bespoke_hover">
+                    <a href="#" class="nav bespoke"><i class="fa fa-th"></i><small><br>Bespoke</small><br>Software</a>
+                    <div class="bespoke_contents"> 
+                        <a href="#">workflow solutions</a>
+                        <a href="#">automations</a>
+                        <a href="#">system integration</a>
+                        <a href="#">database management</a>
+                        <a href="#">sharepoint</a>
+                        <a href="#">erp</a>
+                    </div>
+                </div>
+                <div class="digital_hover">
+                    <a href="#" class="nav digital"><i class="fa fa-signal"></i><small><br>Digital</small><br>Marketing</a>
+                    <div class="digital_contents">
+                        <a href="#">seo</a>
+                        <a href="#">ppc</a>
+                        <a href="#">cro</a>
+                        <a href="#">email</a>
+                        <a href="#">social</a>
+                        <a href="#">content</a>
+                    </div>
+                </div>
+                <div class="cybers_hover">
+                    <a href="#" class="nav cybers"><i class="fa fa-shield"></i><small><br>Cybers</small><br>Security</a>
+                    <div class="cybers_contents"> 
+                        <a href="#">assessment</a>
+                        <a href="#">management</a>
+                        <a href="#">penetration testing</a>
+                        <a href="#">cyber essential</a>
+                        <a href="#">pci/dds</a>
+                        <a href="#">hacker prevention</a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <body>
+        <div class="image_slideshow">
+            <img src="Images/Office_Image.png" class="office" alt="Office Image">
+            <div class="image_text_boundaries">
+                <div class="image_text">
+                    <h1 class="heading">Digital Marketing</h1>
+                    <p class="sub_text">Generating your new business through results-driven marketing activities</p>
+                    <button type="button" class="btn btn-secondary"><p class="button_text">Find Out More  <i class="fa fa-arrow-right"></i></p></button>
+                </div>
+            </div>
+        </div>
+        <div class="card_container"> 
+            <div class="row">
+                <div class="block">
+                    <a class="card card_bespoke col-lg-4 col-md-4 col-sm-6" href="#"> 
+                        <span class="bespoke_icon_background">
+                            <span class="icon"><i class="fa fa-th"></i></span>
+                        </span>
+                        <h2>Bespoke Software</h2>
+                        <p>Tailored software solutions to improve business productivity and online profits. Our expert team will ensure a software solution.</p>
+                        <button type="button" class="btn btn_bespoke">READ MORE</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <a class="card card_it col-lg-4 col-md-4 col-sm-6" href="#">  
+                        <span class="it_icon_background">
+                            <span class="icon"><i class="fa fa-desktop"></i></span>
+                        </span>
+                        <h2>IT Support</h2>
+                        <p>Remotely managed IT services that is catered to your businesses needs, adds value and reduces costs.</p>
+                        <button type="button" class="btn btn_it">READ MORE</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <a class="card card_digital col-lg-4 col-md-4 col-sm-6" href="#"> 
+                        <span class="digital_icon_background">
+                            <span class="icon"><i class="fa fa-signal"></i></span>
+                        </span>
+                        <h2>Digital Marketing</h2>
+                        <p>Driving brand awareness and ROI through creative digital marketing campaigns. We review and monitor online performances.</p>
+                        <button type="button" class="btn btn_digital">READ MORE</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <a class="card card_telecoms col-lg-3 col-md-4 col-sm-6" href="#"> 
+                        <span class="telecoms_icon_background">
+                            <span class="icon"><i class="fa fa-phone"></i></span>
+                        </span>
+                        <h2>Telecoms Services</h2>
+                        <p>Stay connected with bespoke telecoms solutions when you need it most.</p>
+                        <button type="button" class="btn btn_telecoms">READ MORE</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <a class="card card_web col-lg-3 col-md-4 col-sm-6" href="#"> 
+                        <span class="web_icon_background">
+                            <span class="icon"><i class="fa fa-code"></i></span>
+                        </span>
+                        <h2>Web Design</h2>
+                        <p>User-centric design for businesses looking to make a lasting first impression.</p>
+                        <button type="button" class="btn btn_web">READ MORE</button>
+                    </a>
+                </div>
+                <div class="block">
+                    <a class="card card_cybers col-lg-3 col-md-4 col-sm-6" href="#"> 
+                        <span class="cybers_icon_background">
+                            <span class="icon"><i class="fa fa-shield"></i></span>
+                        </span>
+                        <h2>Cyber Security</h2>
+                        <p>Ensuring your online business stays secure 24/7, 365 days of the year.</p>
+                        <button type="button" class="btn btn_cybers">READ MORE</button>
+                    </a>       
+                </div>         
+                <div class="block">
+                    <a class="card card_web col-lg-3 col-md-4 col-sm-6" href="#"> 
+                        <span class="web_icon_background">
+                            <span class="icon"><i class="fa fa-graduation-cap"></i></span>
+                        </span>
+                        <h2>Developer Training</h2>
+                        <p>Have you considered a career in web development but you aren't sure where to start?</p>
+                        <button type="button" class="btn btn_web">READ MORE</button>
+                    </a>    
+                </div>           
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+@import "variables.scss";
+
+@each $name, $col, $dark_col in $colours {
+    .#{$name}_hover {
+            a .fa {
+                color: $col;
+        }
+    }
+    .#{$name}_hover:hover {
+        background-color: $col;
+        .#{$name}_contents {
+            display: flex;
+            background-color: $dark_col;
+            a {
+                background-color: $dark_col;
+            }
+        }
+        a .fa {
+            color: white;
+        }
+    }
+}
+//This is the mixin that doesn't seem to be working.
+@each $name, $col, $dark_col in $colours {
+    .#{$name}_icon_background {
+        background-color: $col;
+    }
+    .btn_#{$name} {
+        background-color: $dark_col;
+    }
+}
+// -------------------------------------------

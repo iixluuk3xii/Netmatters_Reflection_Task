@@ -1,0 +1,186 @@
+.web_hover a .fa {
+  color: #a281b3;
+}
+
+.web_hover:hover {
+  background-color: #a281b3;
+}
+
+.web_hover:hover .web_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #7c548f;
+}
+
+.web_hover:hover .web_contents a {
+  background-color: #7c548f;
+}
+
+.web_hover:hover a .fa {
+  color: white;
+}
+
+.it_hover a .fa {
+  color: #4fa7ff;
+}
+
+.it_hover:hover {
+  background-color: #4fa7ff;
+}
+
+.it_hover:hover .it_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3a84cf;
+}
+
+.it_hover:hover .it_contents a {
+  background-color: #3a84cf;
+}
+
+.it_hover:hover a .fa {
+  color: white;
+}
+
+.telecoms_hover a .fa {
+  color: #f5624e;
+}
+
+.telecoms_hover:hover {
+  background-color: #f5624e;
+}
+
+.telecoms_hover:hover .telecoms_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #cf3f2b;
+}
+
+.telecoms_hover:hover .telecoms_contents a {
+  background-color: #cf3f2b;
+}
+
+.telecoms_hover:hover a .fa {
+  color: white;
+}
+
+.bespoke_hover a .fa {
+  color: #b2c1cf;
+}
+
+.bespoke_hover:hover {
+  background-color: #b2c1cf;
+}
+
+.bespoke_hover:hover .bespoke_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #8995a1;
+}
+
+.bespoke_hover:hover .bespoke_contents a {
+  background-color: #8995a1;
+}
+
+.bespoke_hover:hover a .fa {
+  color: white;
+}
+
+.digital_hover a .fa {
+  color: #7aed6d;
+}
+
+.digital_hover:hover {
+  background-color: #7aed6d;
+}
+
+.digital_hover:hover .digital_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #64a65d;
+}
+
+.digital_hover:hover .digital_contents a {
+  background-color: #64a65d;
+}
+
+.digital_hover:hover a .fa {
+  color: white;
+}
+
+.cybers_hover a .fa {
+  color: #fa4160;
+}
+
+.cybers_hover:hover {
+  background-color: #fa4160;
+}
+
+.cybers_hover:hover .cybers_contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #d12e49;
+}
+
+.cybers_hover:hover .cybers_contents a {
+  background-color: #d12e49;
+}
+
+.cybers_hover:hover a .fa {
+  color: white;
+}
+
+.web_icon_background {
+  background-color: #a281b3;
+}
+
+.btn_web {
+  background-color: #7c548f;
+}
+
+.it_icon_background {
+  background-color: #4fa7ff;
+}
+
+.btn_it {
+  background-color: #3a84cf;
+}
+
+.telecoms_icon_background {
+  background-color: #f5624e;
+}
+
+.btn_telecoms {
+  background-color: #cf3f2b;
+}
+
+.bespoke_icon_background {
+  background-color: #b2c1cf;
+}
+
+.btn_bespoke {
+  background-color: #8995a1;
+}
+
+.digital_icon_background {
+  background-color: #7aed6d;
+}
+
+.btn_digital {
+  background-color: #64a65d;
+}
+
+.cybers_icon_background {
+  background-color: #fa4160;
+}
+
+.btn_cybers {
+  background-color: #d12e49;
+}
+/*# sourceMappingURL=mixins.css.map */
