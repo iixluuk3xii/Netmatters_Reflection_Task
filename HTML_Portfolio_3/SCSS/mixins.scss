@@ -30,7 +30,7 @@
         background-color: $dark_col;
     }
 
-    a:hover .card_#{$name} {
+    div:hover .card_#{$name} {
         background-color: $col;
         color: $dark_col;
     }
