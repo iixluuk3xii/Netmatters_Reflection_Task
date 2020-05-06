@@ -144,12 +144,20 @@
   background-color: #7c548f;
 }
 
+.block:hover {
+  border: 3px solid red;
+}
+
 .it_icon_background {
   background-color: #4fa7ff;
 }
 
 .btn_it {
   background-color: #3a84cf;
+}
+
+.block:hover {
+  border: 3px solid red;
 }
 
 .telecoms_icon_background {
@@ -160,12 +168,20 @@
   background-color: #cf3f2b;
 }
 
+.block:hover {
+  border: 3px solid red;
+}
+
 .bespoke_icon_background {
   background-color: #b2c1cf;
 }
 
 .btn_bespoke {
   background-color: #8995a1;
+}
+
+.block:hover {
+  border: 3px solid red;
 }
 
 .digital_icon_background {
@@ -176,11 +192,19 @@
   background-color: #64a65d;
 }
 
+.block:hover {
+  border: 3px solid red;
+}
+
 .cybers_icon_background {
   background-color: #fa4160;
 }
 
 .btn_cybers {
   background-color: #d12e49;
+}
+
+.block:hover {
+  border: 3px solid red;
 }
 /*# sourceMappingURL=mixins.css.map */
