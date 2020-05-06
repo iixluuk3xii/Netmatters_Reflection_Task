@@ -1,0 +1,252 @@
+// color attributes / -------------------
+
+$lightpurple: #926fb1;
+$purple: #79539a;
+
+$blue: #286abd;
+$lightblue: #4183d7;
+
+$steelblue: #67809f;
+$darksteelblue: #566c88;
+
+$red: #d64541;
+$darkred: #c42e2a;
+
+$rose: #f62459;
+$darkrose: #e80a42;
+
+$green: #25a25a;
+$lightgreen: #2ecc71;
+
+$darkgrey: #333645;
+$white: #fff;
+$fadedwhite: #d6d6d6;
+$grey: #999aa2;
+$fadedblack: #444;
+$fadedgrey: #848584;
+$black:#22242e;
+
+$twitter: #00aced;
+$linkedin: #0077b5;
+$facebook: #3b5998;
+
+$required: #d24d57;
+
+// ----------------------------------------
+
+#info .container {
+    display: flex;
+    justify-content: center;
+    padding: 3.125rem 0;
+    margin: 0 auto;
+    background-color: $white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 73.125rem;
+    ;
+}
+
+.web-design,
+.IT-support,
+.Telecoms-services,
+.Bespoke-software,
+.Digital-marketing,
+.Cyber-security {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 0.1875rem;
+    cursor: pointer;
+    padding: 1.875rem;
+    margin: 0.9375rem 0.9375rem;
+    box-shadow: 0 0.1875rem 2.1875rem rgba(0, 0, 0, 0.1);
+    border: 0.0625rem solid #ccc;
+}
+
+.web-design,
+.IT-support {
+    width: 31.75rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.web-design,
+.Telecoms-services {
+    margin: 0.9375rem 0.9375rem 0.9375rem 0;
+}
+
+.IT-support,
+.Cyber-security {
+    margin: 0.9375rem 0 0.9375rem 0.9375rem;
+}
+
+.Telecoms-services,
+.Bespoke-software,
+.Digital-marketing,
+.Cyber-security {
+    width: 13rem;
+}
+
+.cards .dash {
+    height: 0.1875rem;
+    width: 1.75rem;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: $darkgrey;
+}
+
+.cards h2 {
+    margin: 0 0 0.6875rem;
+    padding: 0 0 1.0625rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white;
+    border-radius: 50%;
+    width: 3.75rem;
+    height: 3.75rem;
+    margin: 0 auto 1.0625rem;
+
+    i {
+        font-size: 1.5em;
+    }
+}
+
+.cards p {
+    margin: 0 0 0.8125rem;
+    font-size: 0.8125rem;
+}
+
+.cards .btn {
+    display: flex;
+    align-items: center;
+    color: $white;
+    padding: 0.3125rem 0.9375rem;
+    width: 6.0125rem;
+    height: 2.15rem;
+}
+
+.web-design {
+    &:hover {
+        background-color: $lightpurple;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $lightpurple;
+        }
+    }
+
+    .btn,
+    .icon {
+        background-color: $lightpurple;
+    }
+}
+
+.IT-support {
+    &:hover {
+        background-color: $lightblue;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $lightblue;
+        }
+    }
+
+    .btn,
+    .icon {
+        background-color: $lightblue;
+    }
+}
+
+.Telecoms-services {
+    &:hover {
+        background-color: $red;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $red;
+        }
+    }
+
+    .btn,
+    .icon {
+        background-color: $red;
+    }
+}
+
+.Bespoke-software {
+    &:hover {
+        background-color: $steelblue;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $steelblue;
+        }
+    }
+
+    .btn,
+    .icon {
+        background-color: $steelblue;
+    }
+}
+
+.Digital-marketing {
+    &:hover {
+        background-color: $lightgreen;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $lightgreen;
+        }
+    }
+
+    .btn,
+    .icon {
+        background-color: $lightgreen;
+    }
+}
+
+.Cyber-security {
+    &:hover {
+        background-color: $rose;
+        color: $white;
+
+        .btn,
+        .icon,
+        span {
+            background-color: $white;
+            color: $rose;
+        }
+    }}

@@ -144,12 +144,22 @@
   background-color: #7c548f;
 }
 
+div:hover .card_web {
+  background-color: #a281b3;
+  color: #7c548f;
+}
+
 .it_icon_background {
   background-color: #4fa7ff;
 }
 
 .btn_it {
   background-color: #3a84cf;
+}
+
+div:hover .card_it {
+  background-color: #4fa7ff;
+  color: #3a84cf;
 }
 
 .telecoms_icon_background {
@@ -160,12 +170,22 @@
   background-color: #cf3f2b;
 }
 
+div:hover .card_telecoms {
+  background-color: #f5624e;
+  color: #cf3f2b;
+}
+
 .bespoke_icon_background {
   background-color: #b2c1cf;
 }
 
 .btn_bespoke {
   background-color: #8995a1;
+}
+
+div:hover .card_bespoke {
+  background-color: #b2c1cf;
+  color: #8995a1;
 }
 
 .digital_icon_background {
@@ -176,12 +196,22 @@
   background-color: #64a65d;
 }
 
+div:hover .card_digital {
+  background-color: #7aed6d;
+  color: #64a65d;
+}
+
 .cybers_icon_background {
   background-color: #fa4160;
 }
 
 .btn_cybers {
   background-color: #d12e49;
+}
+
+div:hover .card_cybers {
+  background-color: #fa4160;
+  color: #d12e49;
 }
 
 * {

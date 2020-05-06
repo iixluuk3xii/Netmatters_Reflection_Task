@@ -1,0 +1,236 @@
+#info .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 3.125rem 0;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  width: 73.125rem;
+}
+
+.web-design,
+.IT-support,
+.Telecoms-services,
+.Bespoke-software,
+.Digital-marketing,
+.Cyber-security {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  border-radius: 0.1875rem;
+  cursor: pointer;
+  padding: 1.875rem;
+  margin: 0.9375rem 0.9375rem;
+  -webkit-box-shadow: 0 0.1875rem 2.1875rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.1875rem 2.1875rem rgba(0, 0, 0, 0.1);
+  border: 0.0625rem solid #ccc;
+}
+
+.web-design,
+.IT-support {
+  width: 31.75rem;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.web-design,
+.Telecoms-services {
+  margin: 0.9375rem 0.9375rem 0.9375rem 0;
+}
+
+.IT-support,
+.Cyber-security {
+  margin: 0.9375rem 0 0.9375rem 0.9375rem;
+}
+
+.Telecoms-services,
+.Bespoke-software,
+.Digital-marketing,
+.Cyber-security {
+  width: 13rem;
+}
+
+.cards .dash {
+  height: 0.1875rem;
+  width: 1.75rem;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #333645;
+}
+
+.cards h2 {
+  margin: 0 0 0.6875rem;
+  padding: 0 0 1.0625rem;
+  font-size: 1.125rem;
+  font-weight: 300;
+  position: relative;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  border-radius: 50%;
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 0 auto 1.0625rem;
+}
+
+.icon i {
+  font-size: 1.5em;
+}
+
+.cards p {
+  margin: 0 0 0.8125rem;
+  font-size: 0.8125rem;
+}
+
+.cards .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  padding: 0.3125rem 0.9375rem;
+  width: 6.0125rem;
+  height: 2.15rem;
+}
+
+.web-design:hover {
+  background-color: #926fb1;
+  color: #fff;
+}
+
+.web-design:hover .btn,
+.web-design:hover .icon,
+.web-design:hover span {
+  background-color: #fff;
+  color: #926fb1;
+}
+
+.web-design .btn,
+.web-design .icon {
+  background-color: #926fb1;
+}
+
+.IT-support:hover {
+  background-color: #4183d7;
+  color: #fff;
+}
+
+.IT-support:hover .btn,
+.IT-support:hover .icon,
+.IT-support:hover span {
+  background-color: #fff;
+  color: #4183d7;
+}
+
+.IT-support .btn,
+.IT-support .icon {
+  background-color: #4183d7;
+}
+
+.Telecoms-services:hover {
+  background-color: #d64541;
+  color: #fff;
+}
+
+.Telecoms-services:hover .btn,
+.Telecoms-services:hover .icon,
+.Telecoms-services:hover span {
+  background-color: #fff;
+  color: #d64541;
+}
+
+.Telecoms-services .btn,
+.Telecoms-services .icon {
+  background-color: #d64541;
+}
+
+.Bespoke-software:hover {
+  background-color: #67809f;
+  color: #fff;
+}
+
+.Bespoke-software:hover .btn,
+.Bespoke-software:hover .icon,
+.Bespoke-software:hover span {
+  background-color: #fff;
+  color: #67809f;
+}
+
+.Bespoke-software .btn,
+.Bespoke-software .icon {
+  background-color: #67809f;
+}
+
+.Digital-marketing:hover {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.Digital-marketing:hover .btn,
+.Digital-marketing:hover .icon,
+.Digital-marketing:hover span {
+  background-color: #fff;
+  color: #2ecc71;
+}
+
+.Digital-marketing .btn,
+.Digital-marketing .icon {
+  background-color: #2ecc71;
+}
+
+.Cyber-security:hover {
+  background-color: #f62459;
+  color: #fff;
+}
+
+.Cyber-security:hover .btn,
+.Cyber-security:hover .icon,
+.Cyber-security:hover span {
+  background-color: #fff;
+  color: #f62459;
+}
+/*# sourceMappingURL=Luke.css.map */
