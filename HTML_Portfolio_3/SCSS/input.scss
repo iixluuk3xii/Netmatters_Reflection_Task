@@ -189,7 +189,7 @@ div[class*=contents] {
     height: auto;
     justify-content: center;
     .block {
-        // margin: 30px;
+        padding-bottom: 30px;
     }
     a:hover {
         text-decoration: none;
@@ -201,6 +201,7 @@ div[class*=contents] {
         border-radius: 5px;
         display: block;
         text-align: center;
+        padding-bottom: 30px;
         h2 {
             color: black;
         }
@@ -214,7 +215,6 @@ div[class*=contents] {
             height: 50px;
             width: 50px;
             border-radius: 50%;
-            // background-color: red;
             .icon {
                 line-height: 50px;
                 color: white;
